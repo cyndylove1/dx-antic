@@ -1,0 +1,99 @@
+
+
+@media screen and (max-width:1000px) {
+    .first-div{
+        /* display: none; */
+    }
+    .nav-mobile{
+        display: flex;
+    }
+    .first-leftdiv ul {
+        display: none;
+    }
+    .first-leftdiv h1{
+        padding-top:10px;
+        font-size:30px;
+        color: var(--white-color);
+    }
+    .first-div{
+        background: url(./img/header-1.png);
+        background-position:center;
+        background-size:cover;
+        /* position:fixed; */
+    }
+    .first-rightdiv{
+        display: none;
+    }
+    .second-text{
+        text-align: center;
+    }
+    .second-text h6{
+        width: 100%;
+        padding: 30px;
+        color: var(--white-color);
+        text-align: center;
+    }
+    .text h1{
+        text-align: center;
+        color: var(--white-color);
+        font-size: 30px;
+    }
+    .text h5{
+        color: var(--white-color);
+        text-align: center;
+    }
+    .arrow {
+        text-align: center;
+        color: var(--white-color);
+    }
+    .arrow i {
+        border: 1px solid white;
+        color: var(--white-color);
+    }
+    .second-div{
+        flex-direction: column;
+    }
+    .second-div-text{
+        /* border:1px solid blue; */
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .text-container{
+        width: 100%;
+        flex-direction:column;
+        /* flex-wrap:wrap; */
+    }
+    .section-text{
+        display: none;
+
+    }
+    .text1{
+        flex-direction: column;
+    }
+    .section{
+        padding: 20px 0;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* border: 2px solid aqua; */
+    }
+    .input input{
+        padding: 15px;
+        width: 90%;
+
+    }
+    .input button{
+        padding: 15px 10px;
+        width: 90%;
+        margin: 10px 10px;
+
+    }
+    
+
+    
+
+}
+    
+
