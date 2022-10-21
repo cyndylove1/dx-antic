@@ -24,7 +24,7 @@ body{
     height:600px;
     width:100%;
     background: #F3EEE8;
-    /* position: relative; */
+    position: relative;
 }
 .first-rightdiv{
     /* border: 3px solid red; */
@@ -92,7 +92,6 @@ body{
 .nav-mobile{
     /* border: 2px solid purple; */
     display: none;
-    /* position: relative; */
     /* height: 670px; */
 }
 .nav-text h1{
@@ -108,7 +107,7 @@ body{
     align-items: center;
     z-index: 100;
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     right: 30px;
     top: 10px;
     margin: 25px 0;
