@@ -19,6 +19,7 @@
         color: var(--white-color);
     }
     .first-div{
+        height: 700px;
         background: url(./img/header-1.png);
         background-position:center;
         background-size:cover;
