@@ -5,10 +5,13 @@
         /* display: none; */
     }
     .nav-mobile{
-        display: flex;
+        display: block;
     }
     .first-leftdiv ul {
         display: none;
+    }
+    .first-leftdiv{
+        /* display: none; */
     }
     .first-leftdiv h1{
         padding-top:10px;

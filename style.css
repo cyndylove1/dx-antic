@@ -24,7 +24,7 @@ body{
     height:600px;
     width:100%;
     background: #F3EEE8;
-    position: relative;
+    /* position: relative; */
 }
 .first-rightdiv{
     /* border: 3px solid red; */
@@ -90,7 +90,9 @@ body{
 
 /*===nav-mobile section starts here*/
 .nav-mobile{
+    /* border: 2px solid purple; */
     display: none;
+    /* position: relative; */
     /* height: 670px; */
 }
 .nav-text h1{
@@ -106,7 +108,7 @@ body{
     align-items: center;
     z-index: 100;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 10px;
     margin: 25px 0;
@@ -148,15 +150,18 @@ body{
     background: var(--white-color);
 }
 .mobile{
+    /* border: 2px solid green; */
     transition: all 0.2s ease;
     transform: translateX(102%);
-    height: 65%;
-    position: fixed;
-    width: 50%;
+    display: none;
+    /* height: 65%; */
+    /* position: fixed; */
+    width: 100%;
+    /* padding-top: 100px; */
     top: 0;
     right:0;
     z-index: 3;
-    background: var(--white-color);
+    /* background: var(--white-color); */
 }
 .showmobile{
     display: block;
@@ -169,19 +174,21 @@ body{
 .mobile-content  a{
     display: block;
     text-decoration: none;
-    padding: 40px 20px;
-    color:#534B42;;
+    padding: 10px 20px;
+    color:#534B42;
+    background:  #F3EEE8;
 }
 .mobile-content a:hover{
-    background: #534B42;;
-    color: var(--white-color);
+    background: transparent;
+    color:var(--white-color);
 }
-.mobile-content .active-link{
-    color: var(--white-color);
-    background:#534B42;;
-}
+/* .mobile-content .active-link{ */
+    /* color:#534B42; */
+    /* background: var(--white-color); */
+
 
 /*===first section ends here*/
+
 
 
 /*===second  section starts here*/
