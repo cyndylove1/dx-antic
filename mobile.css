@@ -94,7 +94,51 @@
         margin: 10px 10px;
 
     }
-    
+    .container{
+        display: none;
+    }
+    .inspire-text{
+        flex-direction: column;
+        display: block;
+        flex-direction: column-reverse;
+    }
+    .angle{
+        display: none;
+    }
+    .inspire{
+        display: none;
+    }
+    .inspiration{
+        display: flex;
+        
+    }
+    .inspiration-text{
+        padding: 20px 20px;
+
+    }
+    .inspiration-text h1{
+        padding: 20px 0;
+        font-size: 50px;
+        color: #534B42;
+
+    }
+    .inspiration-text h3{
+        color: rgba(112, 100, 88, 0.9);
+    }
+    .slide{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slide-img{
+        margin-bottom: 40px;
+        height: 400px;
+        width: 100%;
+        padding: 0 20px;
+
+    }
+    .slide-img h2{
+        padding: 10px 20px;
+    }
 
     
 
