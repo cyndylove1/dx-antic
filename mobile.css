@@ -180,7 +180,7 @@
         width: 150%;
     }
     .footer-content h3{
-        width:100% ;
+        width:120% ;
     }
     .footer-icon-content{
         margin-right: 70px;
@@ -189,22 +189,24 @@
         display: none;
     }
     .bottom-footer{
-        width: 80%;
+        width: 70%;
+        color:  rgba(112, 100, 88, 1);;
         display: flex;
-        padding-left: 20px;
+        padding-left: 15px;
+        margin-left: 10px;
         flex-direction: column;
     }
     .bottom-end{
-        padding: 20px 0;
+        padding: 20px 3px;
         display: flex;
-        width: 50%;
+        color:  rgba(112, 100, 88, 1);;
+        width: 55%;
         flex-wrap: wrap;
         margin-left: 30px;
         /* flex-direction: column; */
     }
-    .bottom-end p{
-        /* padding: 0 3px; */
-        width: 50%;
+    .bottom-end h5{
+        padding: 0 3px;
     }
     /* footer section ends here */
     
