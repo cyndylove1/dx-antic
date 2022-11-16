@@ -25,6 +25,6 @@ const sr = ScrollReveal ({
  })
  sr.reveal('.first-div',{delay:350, origin:'leftt'})
  sr.reveal('.first-rightdiv', {delay:350, origin:'right'})
- sr.reveal('.second-div-text, .text-content, .section-text, .swiper-wrapper, .inspire-text, .slide-img,.footer-container, .footer-icon-content, .bottom-end, .bottom-footer', {delay:350, origin:'bottom'})
+ sr.reveal('.second-div-text, .text-content, .section-text,.swiper-wrapper,.inspire-text, .slide-img,.footer-container,.footer-content,.footer-icon-content,.bottom-end,.bottom-footer', {delay:350, origin:'bottom'})
 
        

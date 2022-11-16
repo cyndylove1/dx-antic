@@ -193,7 +193,7 @@
         color:  rgba(112, 100, 88, 1);;
         display: flex;
         padding-left: 15px;
-        margin-left: 10px;
+        margin-left: 20px;
         flex-direction: column;
     }
     .bottom-end{
