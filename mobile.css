@@ -161,7 +161,7 @@
     .antic h2{
         padding-right: 30px;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .footer-text{
@@ -176,7 +176,11 @@
         width: 150%;
     }
     .footer-content h6{
-        width: 120%;
+        font-size: 13px;
+        width: 150%;
+    }
+    .footer-content h3{
+        width:100% ;
     }
     .footer-icon-content{
         margin-right: 70px;
@@ -185,7 +189,7 @@
         display: none;
     }
     .bottom-footer{
-        width: 75%;
+        width: 80%;
         display: flex;
         padding-left: 20px;
         flex-direction: column;
@@ -195,8 +199,12 @@
         display: flex;
         width: 50%;
         flex-wrap: wrap;
-        margin-left: 20px;
+        margin-left: 30px;
         /* flex-direction: column; */
+    }
+    .bottom-end p{
+        /* padding: 0 3px; */
+        width: 50%;
     }
     /* footer section ends here */
     
