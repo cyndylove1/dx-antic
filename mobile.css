@@ -7,6 +7,7 @@
     .nav-mobile{
         display: block;
     }
+    /* first-section starts here */
     .first-leftdiv ul {
         display: none;
     }
@@ -28,6 +29,17 @@
     .first-rightdiv{
         display: none;
     }
+    .arrow {
+        text-align: center;
+        color: var(--white-color);
+    }
+    .arrow i {
+        border: 1px solid white;
+        color: var(--white-color);
+    }
+     /* first-section ends here */
+
+     /* second-section starts here */
     .second-text{
         text-align: center;
     }
@@ -46,14 +58,7 @@
         color: var(--white-color);
         text-align: center;
     }
-    .arrow {
-        text-align: center;
-        color: var(--white-color);
-    }
-    .arrow i {
-        border: 1px solid white;
-        color: var(--white-color);
-    }
+   
     .second-div{
         flex-direction: column;
     }
@@ -62,17 +67,19 @@
         width: 100%;
         padding: 20px 10px;
     }
+    .text1{
+        flex-direction: column;
+    }
     .text-container{
         width: 100%;
         flex-direction:column;
         /* flex-wrap:wrap; */
     }
+    /* second-section ends here */
+
+    /* third-section starts here */
     .section-text{
         display: none;
-
-    }
-    .text1{
-        flex-direction: column;
     }
     .section{
         padding: 20px 0;
@@ -94,9 +101,28 @@
         margin: 10px 10px;
 
     }
+    /* third-section ends here */
+    /* slider-section starts here */
     .container{
         display: none;
     }
+    .slide{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slide-img{
+        margin-bottom: 40px;
+        height: 400px;
+        width: 100%;
+        padding: 0 20px;
+
+    }
+    .slide-img h2{
+        padding: 5px 20px;
+    }
+    /* slider-section ends here  */
+
+    /* inspire-section starts here */
     .inspire-text{
         flex-direction: column;
         display: block;
@@ -124,22 +150,56 @@
     .inspiration-text h3{
         color: rgba(112, 100, 88, 0.9);
     }
-    .slide{
+    /* inspire section ends here */
+   
+    /* footer section starts here */
+
+    .footer-container{
+        height: 700%;
+        flex-direction: column;
+    }
+    .antic h2{
+        padding-right: 30px;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .footer-text{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .footer-content{
+        width: 50%;
+        margin-left: 37px;
+    }
+    .footer-content img{
+        width: 150%;
+    }
+    .footer-content h6{
+        width: 120%;
+    }
+    .footer-icon-content{
+        margin-right: 70px;
+    }
+    .footer-bottom{
+        display: none;
+    }
+    .bottom-footer{
+        width: 75%;
         display: flex;
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    .bottom-end{
+        padding: 20px 0;
+        display: flex;
+        width: 50%;
         flex-wrap: wrap;
+        margin-left: 20px;
+        /* flex-direction: column; */
     }
-    .slide-img{
-        margin-bottom: 40px;
-        height: 400px;
-        width: 100%;
-        padding: 0 20px;
-
-    }
-    .slide-img h2{
-        padding: 5
-        px 20px;
-    }
-
+    /* footer section ends here */
+    
     
 
 }
