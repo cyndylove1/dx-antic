@@ -154,12 +154,12 @@
    
     /* footer section starts here */
     .footer-section{
-        height: 900%;
+        height: 200%;
         background: ;
     }
 
     .footer-container{
-        height: 800%;
+        height: 180%;
         flex-direction: column;
     }
     .antic h2{
@@ -198,6 +198,7 @@
         display: flex;
         padding-left: 15px;
         margin-left: 20px;
+        margin-bottom: 30px;
         /* flex-direction: column; */
     }
     .bottom-end{

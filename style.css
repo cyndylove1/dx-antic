@@ -10,7 +10,7 @@ img{
     width: 100%;
 }
 body{
-    height: 2000px;
+    height: 2500px;
     font-family: 'Merriweather', serif;
 }
 /*===major fixes ends here*/
@@ -365,13 +365,14 @@ body{
 .footer-section{
     /* border: 3px solid purple; */
     background: #F3EEE8;
-    /* height: 700px; */
+    height: 700px;
+    width: 100%;
 
 }
 .footer-container{
     /* border:2px solid yellow; */
     display:flex;
-    height:400px;
+    height:400px
     width:90%;
     padding:30px 0;
 
